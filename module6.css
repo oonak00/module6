@@ -7,27 +7,33 @@ body {
     table, th, td {
     border-collapse: collapse;
     border: 1px solid #5a4c4c;
-    padding: 1em;
+    padding: 5px;
     }
 
     .header {
       background-color: #F1F1F1;
       text-align: center;
-      padding: 20px;
+      padding: 5px;
     }
 
-    nav a {
-      background: rgba(87, 54, 4);
-      font-family: otsikko, "sans serif";
-      color:whitesmoke;
-      text-decoration: none;
-      display: inline-block;
-      border: 2px solid rgba(87, 54, 4);
-  }
-  nav a:hover {
-      color: rgba(87, 54, 4);
-      background-color: whitesmoke;
-  }
+/*main*/
+nav a {
+  background: rgba(87, 54, 4);
+  font-family: otsikko, "sans serif";
+  color:whitesmoke;
+  text-decoration: none;
+  display: inline-block;
+  border: 2px solid rgba(87, 54, 4);
+}
+nav a:hover {
+  color: rgba(87, 54, 4);
+  background-color: whitesmoke;
+}
+#valittu {
+  color: rgba(87, 54, 4);
+  background-color:rgba(255, 235, 205, 0.6);
+}
+
 
     .image-container {
         position: relative;
@@ -35,7 +41,7 @@ body {
     }
     .image-container {
         display: block;
-        width: 90%;
+        width: 100%;
         height: auto;
     }
 
@@ -85,5 +91,26 @@ body {
         display: flex;
         padding-bottom: 15%;
       }
+
 /* for mobile*/
-      @media
+      @media (max-width: 600px){
+        footer
+          flex-direction: column;
+          text-align: center;
+      }
+      nav a { 
+        font-size: 15px;
+        width: 100px;
+        height: 20px;
+        padding: 7px;
+        margin:3px 5px;
+    }
+    h1 {
+      font-size: 25px;
+  }
+  h2{
+    font-size: 20px;
+}
+h3 {
+  font-size: 18px;
+}
