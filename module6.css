@@ -114,3 +114,7 @@ nav a:hover {
 h3 {
   font-size: 18px;
 }
+video { 
+  width: 50%; 
+  min-width: 100px;
+  }
