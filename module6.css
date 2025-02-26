@@ -15,20 +15,19 @@ body {
       text-align: center;
       padding: 20px;
     }
-    
-    /*  links */
-    .topnav {
-      overflow: hidden;
-      background-color: #333;
-    }
-    .topnav a {
-      float: left;
-      display: block;
-      color: #f2f2f2;
-      text-align: center;
-      padding: 14px 16px;
+
+    nav a {
+      background: rgba(87, 54, 4);
+      font-family: otsikko, "sans serif";
+      color:whitesmoke;
       text-decoration: none;
-    }
+      display: inline-block;
+      border: 2px solid rgba(87, 54, 4);
+  }
+  nav a:hover {
+      color: rgba(87, 54, 4);
+      background-color: whitesmoke;
+  }
 
     .image-container {
         position: relative;
@@ -86,3 +85,5 @@ body {
         display: flex;
         padding-bottom: 15%;
       }
+/* for mobile*/
+      @media
