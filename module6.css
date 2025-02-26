@@ -118,3 +118,10 @@ video {
   width: 50%; 
   min-width: 100px;
   }
+  @media screen and (max-width: 600) {
+    img.mob-img {
+      width: 100px;
+      height: auto;
+    }       
+  }
+ 
