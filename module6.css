@@ -94,7 +94,11 @@ nav a:hover {
 
 /* for mobile*/
       @media (max-width: 600px){
-        footer
+        img.mob-img {
+          width: 100px;
+          height: auto;
+        }
+        footer {
           flex-direction: column;
           text-align: center;
       }
@@ -118,10 +122,4 @@ video {
   width: 50%; 
   min-width: 100px;
   }
-  @media screen and (max-width: 600) {
-    img.mob-img {
-      width: 100px;
-      height: auto;
-    }       
-  }
- 
+}
